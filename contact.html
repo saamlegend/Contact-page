@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="Contact Us for more information">
+    <meta name="keywords" content="Hotels,extraordinary hotels,African Hotels">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baskervville&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/mobile.css">
+    <title>Contact Us</title>
+  </head>
+  <body>
+    <nav id="navbar">
+      <div class="container1">
+        <div class="logo">
+        <img src="./img/Group.png" alt="logo image">
+        <h1><a href="index.html">L'Hotel <br><span>Afrikan</span></a></h1></div>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="facilities.html">FACILITIES</a></li>
+          <li><a href="rooms.html">ROOMS</a></li>
+          <li><a class="current" href="contact.html">CONTACT US</a></li>
+          <li><a class="btn" href="#">Book Now</a></li>
+        </ul>
+      </div>
+    </nav>
+    <section id="showcase">
+      <div class="container2">
+        <div class="showcase-content">
+          <p class="box1">Feel Free</p>
+          <p class="box2">To Reach Out</p>
+        </div>
+      </div>
+    </section>
+      <section id="contact-form">
+        <div class="container3">
+          <form action="process.php">
+            <div class="form-group1">
+              <label for="name">Full Name (Required)</label>
+              <input type="text" name="name" id="name" >
+              <label for="phone">Phone (Required</label>
+              <input type="text" name="phone" id="phone" >
+            </div>
+            <div class="form-group2">
+              <label for="email">Email (Required)</label>
+              <input type="email" name="email" id="email" >
+              <label for="company">Company (Optional)</label>
+              <input type="text" name="company" id="company" >
+            </div>
+            <div class="message">
+              <label for="message">Message</label>
+              <textarea name="message" id="message" ></textarea>
+            </div>
+          <button type="submit" class="btn1">SEND</button>
+          </form>
+          <div id="box-1"></div>
+        </div>
+      </section>
+  </body>
+</html>
