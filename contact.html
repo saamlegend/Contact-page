@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <!-- Contact CSS -->
+    <link rel="stylesheet" href="./contact.css">
+    <!-- Fontawesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap CDN -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- JS file -->
+    <script src="./contact.js"></script>
+    <!-- JS Map API key -->
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDtHm7-gxObotuokQ-4lMUprMLTxud9afQ&callback=initMap">
+    </script>
+    
+</head>
+<body>
+    <!-- the google map -->
+ <div id="map" style="background-color: grey; width: 100%; height: 400px;">
+</div> 
+
+
+<!-- the contact info -->
+<div class="mapdown">
+    <h3>Contact Info</h3>
+    
+<div class="first-icons">
+<span><i class="fa fa-map-marker fa-2x" aria-hidden="true" fa-></i> 45 JK Fredson Avenue<br/> Banana Island</span>
+ <span><i class="fa fa-phone-square fa-2x" aria-hidden="true"></i> +2348140165937<br/>
++2348155552743</span>
+ <span><i class="fa fa-instagram fa-2x" aria-hidden="true"></i>@hotelAfrikan</span>
+</div>
+ 
+<div class="second-icons">
+<span><i class="fa fa-envelope fa-2x" aria-hidden="true"></i>bookl'hotel@gmail.com</span>
+<span> <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>L'HotelAfrikan</span>
+<span> <i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i>L'Hotel Afrikan</span>
+</div>
+<div class="twitter"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i>@hotelAfrikan
+</div> 
+<!-- Image and footer begins here -->
+<img src="./img/hills.png" alt="L'Hotel Afrikan">
+ 
+
+<footer>
+    
+    <div class="footer-section">
+        <!-- bootstrap CSS used here -->
+     <div class="row">   
+     <div class="col-sm-4">  <h3>Contact Info</h3> 
+    45, JK Avenue, Surulere, Lagos<br />
+    bookl'hotel@gmail.com<br />
+    +2348140165937
+    +2348155552743
+    </div>
+    <div class="col-sm-4">
+   <h3>Book A Room</h3>
+ <span class="labels">  <label for="arrival"><b>Arrival Date</b></label>&nbsp &nbsp &nbsp &nbsp
+     &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <label for="room"><b>Room Type</b></label></span><br/> <input type="date" id="arrival" placeholder="Arrival Date" name="Arrival Date">
+    <select id="room" name="room" placeholder="Room type">
+        <option value="Standard">Standard Room</option>
+        <option value="Double">Double Room</option>
+        <option value="Executive">Executive Room</option>
+        <option value="Presidential">Presidential Suite</option>
+    </select> <br/>
+    <input type="name" id="guest-name" placeholder="Guest Name">
+    <input type="number" id="number" placeholder="Number">
+    </div>
+    
+    <br/>
+    
+    <div class="col-sm-4">
+    <b>Privacy Policy</b><br/>
+    <b>Terms and Conditions</b><br/>
+    <b>All Rights Reserved</b><br/>
+    </div>
+    </div>
+    <b>Follow Us Here:</b>
+    <div><i class="fa fa-facebook-square fa-lg" aria-hidden="true"></i>
+        <i class="fa fa-instagram fa-lg" aria-hidden="true"></i>
+        <i class="fa fa-twitter-square fa-lg" aria-hidden="true"></i>
+        <i class="fa fa-linkedin-square fa-lg" aria-hidden="true"></i></div>
+    </div>
+    <!--bootsrap CSS ends  -->
+
+</footer> 
+
+
+
+ 
+</body>
+</html>
